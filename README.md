@@ -1,7 +1,7 @@
 # SOE-305-PROJECT
 This is the public repository for open-source Flutter development project.
 
-##Getting started:
+## Getting started:
 
 after cloning the repo and initializing git
 
@@ -9,7 +9,7 @@ after cloning the repo and initializing git
 - flutter get pub
  in the root directory of the cloned repo
 
-##Rules:
+## Rules:
 
 - Pls use reasonable comments
 - Use reasonnable commit messages
