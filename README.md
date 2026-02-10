@@ -13,5 +13,6 @@ after cloning the repo and initializing git
 
 - Pls use reasonable comments
 - Use reasonnable commit messages
+- MAINTAINTEFILESTRUCTURE
 
 
