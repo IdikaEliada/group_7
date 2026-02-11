@@ -26,8 +26,7 @@ Follow these steps to set up the project locally:
    
 3. **Verify your Flutter environment**
    ```bash
-   flutter doctor
-Resolve any issues (especially Android toolchain, connected devices, or licenses).
+   flutter doctor #Resolve any issues (especially Android toolchain, connected devices, or licenses).
 
    
 4. **Firebase Setup**
