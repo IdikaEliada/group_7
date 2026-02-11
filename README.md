@@ -26,7 +26,8 @@ Follow these steps to set up the project locally:
    
 3. **Verify your Flutter environment**
    ```bash
-   flutter doctorResolve any issues (especially Android toolchain, connected devices, or licenses).
+   flutter doctor
+Resolve any issues (especially Android toolchain, connected devices, or licenses).
 
    
 4. **Firebase Setup**
@@ -55,4 +56,19 @@ Follow these steps to set up the project locally:
 ## Project Structure
 
 We follow a clean, maintainable structure (inspired by common Flutter best practices):
-text
+
+```
+user/
+├── domain/              # Business Logic Layer (Independent)
+│   ├── entities/        # Pure business objects
+│   ├── repositories/     # Repository interfaces (contracts)
+│   └── usecases/         # Business logic use cases
+├── data/                 # Data Layer (Depends on domain)
+│   ├── models/           # Data models (with JSON serialization)
+│   ├── datasources/      # Remote & Local data sources
+│   └── repositories/     # Repository implementations
+├── presentation/         # Presentation Layer (Depends on domain)
+│   └── pages/            # UI pages/screens
+└── di/                   # Dependency Injection
+    └── user_dependency_injection.dart
+```
